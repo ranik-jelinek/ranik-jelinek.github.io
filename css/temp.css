@@ -13,7 +13,7 @@ body.inProgress {
 /* Hover Dropdown */
 .hoverDrop {
   position: relative;
-  display: block;
+  display: grid;
 }
 
 .contentDrop {
