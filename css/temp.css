@@ -12,7 +12,7 @@ body.inProgress {
 
 /* Hover Dropdown */
 .hoverDrop {
-  position: absolute;
+  position: relative;
   display: inline-block;
 }
 
