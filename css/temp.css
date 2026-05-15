@@ -4,7 +4,7 @@ body {
 
 body.inProgress {
   background-image: url('../images/wuc.png');
-  background-color: none;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
