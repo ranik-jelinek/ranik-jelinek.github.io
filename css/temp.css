@@ -10,6 +10,12 @@ body.inProgress {
   background-size: 100% 100%;
 }
 
+/* Hover Dropdown */
+.hoverDrop {
+  position: relative;
+  display: block;
+}
+
 html {
   height: 100%
 }
