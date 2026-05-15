@@ -18,7 +18,7 @@ body.inProgress {
 
 .contentDrop {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: bisque;
 }
 
