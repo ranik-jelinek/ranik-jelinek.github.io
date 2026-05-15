@@ -2,7 +2,7 @@ body {
   background-color: #BDE3FA;
 }
 
-.inProgress {
+body.inProgress {
   background-image: url('../images/wuc.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
