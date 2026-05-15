@@ -1,4 +1,8 @@
 body {
+  background-color: #6BDFFF;
+}
+
+.inProgress {
   background-image: url('../images/wuc.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
