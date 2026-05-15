@@ -4,7 +4,6 @@ body {
 
 .inProgress {
   background-image: url('../images/wuc.png');
-  background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
