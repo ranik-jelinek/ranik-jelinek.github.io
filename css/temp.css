@@ -39,6 +39,12 @@ body.inProgress {
   display: block;
 }
 
+.contentDrop a:hover {background-color: #ddd;}
+
+.hoverDrop:hover .contentDrop {display: block;}
+
+.hoverDrop:hover .buttonDrop {background-color: #3e8e41;}
+
 html {
   height: 100%
 }
