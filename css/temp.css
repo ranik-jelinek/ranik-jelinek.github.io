@@ -16,6 +16,12 @@ body.inProgress {
   display: block;
 }
 
+.contentDrop {
+  display: none;
+  position: relative;
+  background-color: bisque;
+}
+
 html {
   height: 100%
 }
