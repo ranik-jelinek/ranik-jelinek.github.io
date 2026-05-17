@@ -10,17 +10,31 @@ body.inProgress {
   background-size: 100% 100%;
 }
 
-/* Hover Dropdown */
-.hoverDrop {
-  position: relative;
-  display: inline-block;
+/* Nav bar */
+.navBar {
+  background-color: green;
+  overflow: hidden;
 }
 
-.buttonDrop {
-  background-color: blue;
+.navBar a {
+  float: left;
+  text-align: center;
+}
+
+.navDrop {
+  float: left;
+  overflow: hidden;
+}
+
+.navDrop .buttonDrop {
+  background-color: #3e8e41;
   color: lightgray;
   padding: 16px;
   border: none;
+}
+
+.navBar a:hover, .navDrop a:hover .buttonDrop {
+  background-color: aquamarine;
 }
 
 .contentDrop {
@@ -39,10 +53,6 @@ body.inProgress {
 }
 
 .contentDrop a:hover {background-color: #ddd;}
-
-.hoverDrop:hover .contentDrop {display: block;}
-
-.hoverDrop:hover .buttonDrop {background-color: #3e8e41;}
 
 html {
   height: 100%
