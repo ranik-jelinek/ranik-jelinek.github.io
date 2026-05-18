@@ -19,6 +19,9 @@ body.inProgress {
 .navBar a {
   float: left;
   text-align: center;
+  color: lightgray;
+  padding: 16px;
+  border: none;
 }
 
 .navDrop {
