@@ -42,7 +42,7 @@ body.inProgress {
   margin: 0;
 }
 
-.navBar a:hover, .navDrop a:hover .buttonDrop {
+.navBar a:hover, .navDrop hover .buttonDrop {
   background-color: red;
 }
 
