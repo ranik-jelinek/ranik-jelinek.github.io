@@ -42,11 +42,12 @@ body.inProgress {
 .contentDrop {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
 .contentDrop a {
   float: none;
   color: black;
@@ -56,9 +57,11 @@ body.inProgress {
   text-align: left;
 }
 
-.contentDrop a:hover {background-color: #ddd;}
+.contentDrop a:hover {
+  background-color: #ddd;
+}
 
-.navDrop a:hover .contentDrop {
+.navDrop:hover .contentDrop {
   display: block;
 }
 
