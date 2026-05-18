@@ -12,27 +12,32 @@ body.inProgress {
 
 /* Nav bar */
 .navBar {
-  background-color: green;
   overflow: hidden;
+  background-color: green;
 }
 
 .navBar a {
   float: left;
-  text-align: center;
   color: lightgray;
+  text-align: center;
   padding: 16px;
 }
 
 .navDrop {
   float: left;
   overflow: hidden;
+  color:darkgoldenrod;
 }
 
 .navDrop .buttonDrop {
-  background-color: #f187e3;
-  color: lightgray;
-  padding: 16px;
+  font-size: 16px;  
   border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
 .navBar a:hover, .navDrop a:hover .buttonDrop {
